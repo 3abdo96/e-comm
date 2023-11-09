@@ -78,10 +78,10 @@ const {cartCount}=useContext(cartContext)
           <span className="nav-link" onClick={logoutUser} style={{cursor:"pointer"}}>Logout</span>
         </li>:<>
          <li className="nav-item">
-          <Link className="nav-link active" aria-current="page"  to="/login">Login</Link>
+          <Link className="nav-link active" aria-current="page"  to="login">Login</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/register">Register</Link>
+          <Link className="nav-link" to="register">Register</Link>
         </li>
         </>}
            
